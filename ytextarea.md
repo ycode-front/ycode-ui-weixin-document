@@ -5,7 +5,7 @@ Ytextarea这个组件用来完成文本输入框及其样式，提示剩余输�
 ## Example
 
 使用
-
+ 
 ```html
 <textarea
     class="weui_textarea"
@@ -23,13 +23,10 @@ Ytextarea这个组件用来完成文本输入框及其样式，提示剩余输�
 |name|type|required|default|description|
 |:---|:---|:---:|:---||
 |placeholder|string|no|''|文本输入域的默认value值|
-|maxlength|string|yes|-1|输入字符的数的最大值|
+|maxlength|number|no|-1|输入字符的数的最大值|
+|rows|number|no|''|文本输入框的可见行数(高度)|
 
 
 ##Method
  
 ##Event
-
-|name|target|param|condiotion|
-|:---|:---|:---|:---|
-|ytextarea.initEvent|组件本身||组件初始化之后就调用|
